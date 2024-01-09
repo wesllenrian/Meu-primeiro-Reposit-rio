@@ -1,0 +1,121 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.Link-header1{
+    margin-left: 35px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #989D9C;
+    width: 90px;
+    height: 29px;
+    cursor: pointer;
+
+}
+.button-header1{
+    margin-left: 35px;
+    width: 130px;
+    height: 41px;
+    cursor: pointer;
+    background-color: #665AE1;
+    border-radius: 20.5px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: white;
+
+}
+header{
+    margin: 55px 0 20px 48px;
+}
+img{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 128px;
+    width: 508PX;
+}
+div{
+    display: inline-block;
+    margin-left: 90px;
+    position: absolute;
+    top: 20%;
+    
+}
+h1{
+    width: 513px;
+    height: 122px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 121.9px;
+    color: #515151;
+    margin-top: 58px;
+
+}
+h2{
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 70.7px;
+    color: #515151;
+}
+p{
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #515151;
+    margin-top: 58px;
+}
+.button-header2{
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    cursor: pointer;
+    background-color: #ADFF00;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34.13px;
+    border: none;
+    margin-top: 120px
+}
+@media screen and (max-width: 950px){
+    
+    header{
+        display: none;
+    }
+    img{
+        width: 354px;
+        display: block;
+        position: absolute;
+        right: 15px;
+        
+    }
+    h1{
+        width: 263px;
+        height: 52px;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 60.95px;
+        display: block;
+        margin-top: 322px;
+    }
+    h2{
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        line-height: 36.57px;
+        margin-left: 15px;
+    }
+    p{
+        display: none;
+    }
+    .button-header2{
+        width: 239px;
+        height: 64px;
+    }
+}
